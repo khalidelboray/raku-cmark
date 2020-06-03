@@ -1,9 +1,5 @@
 # Cmark
 
-[![Build Status](https://travis-ci.com/khalidelboray/raku-cmark.svg?branch=master)](https://travis-ci.com/khalidelboray/raku-cmark)
-
-
-
 ### DESCRIPTION
 
 A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonmark/cmark) *trying*
