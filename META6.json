@@ -3,7 +3,7 @@
   "description": "A Raku binding to the C lib cmark",
   "version": "0.1",
   "perl": "6.*",
-  "tags":["markdown","xml","latex","commonmark","man"]
+  "tags":["markdown","xml","latex","commonmark","man"],
   "authors": [
     "Khalid Elboray"
   ],
