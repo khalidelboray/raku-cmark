@@ -6,6 +6,25 @@
 
 A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonmark/cmark) *trying*
 
+### INSTALL 
+
+* install cmark lib
+    * linux
+        - git clone https://github.com/commonmark/cmark.git
+        - cd cmark && make && make test && make install
+    * windows 
+        - i recommend using [`vcpkg`](https://github.com/microsoft/vcpkg)
+        - vcpkg install cmake 
+        - add the bin dir in the vcpkg packages dir to your ENV PATH. will look like that `whatever\vcpkg\packages\cmark_x64-windows\bin`
+* install the module
+    * zef 
+        - zef install Cmark
+    * from source
+        - git clone https://github.com/khalidelboray/raku-cmark.git
+        - cd cmark
+        - zef install .
+        
+
 # Example
 
 ``` perl6
