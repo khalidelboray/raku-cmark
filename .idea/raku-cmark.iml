@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PERL6_MODULE_TYPE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="NativeLibs" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506767605:NativeLibs!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="NativeLibs" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506767605:NativeLibs!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="NativeLibs" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506767605:NativeLibs!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="NativeLibs" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506767605:NativeLibs!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
