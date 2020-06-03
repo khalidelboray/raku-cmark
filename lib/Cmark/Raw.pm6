@@ -1,5 +1,4 @@
 use NativeCall;
-use NativeLibs;
 unit module Cmark::Raw;
 
 constant lib = $*DISTRO.is-win ?? 'libcmark.dll' !! 'libcmark.so';
