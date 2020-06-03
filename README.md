@@ -14,7 +14,7 @@ A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonm
         - cd cmark && make && make test && make install
     * windows 
         - i recommend using [`vcpkg`](https://github.com/microsoft/vcpkg)
-        - `vcpkg install cmake`
+        - `vcpkg install cmark`
         - add the bin dir in the vcpkg packages dir to your ENV PATH. will look like that `whatever\vcpkg\packages\cmark_x64-windows\bin`
 * install the module
     * zef 
