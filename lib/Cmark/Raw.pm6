@@ -25,8 +25,6 @@ class Node is repr('CStruct') {
 
 
 
-#my constant lib = 'C:\Users\accne\vcpkg\packages\cmark_x64-windows\debug\bin\libcmark.dll';
-
 sub cmark_version_string(--> Str) is native(lib) is export {*}
 sub cmark_markdown_to_html(Str $text , size_t $len , int32 $options --> Str) is native(lib) is export {*}
 sub cmark_parse_document(Str $text,size_t $len,int32 $options --> Node) is native(lib) is export {*}
