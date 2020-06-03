@@ -6,7 +6,7 @@
 
 ### DESCRIPTION
 
-A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonmark/cmark)
+A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonmark/cmark) *trying*
 
 # Example
 
