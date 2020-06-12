@@ -144,4 +144,4 @@ A Raku binding (*NOT COMPLETED*) to the C lib [cmark](https://github.com/commonm
 ## TODO 
 * Add more tests
 * Full binding 
-    * `cmark_parser_new_with_mem` ,`cmark_parser_new` ,`cmark_parser_free`,`cmark_parse_file`,`cmark_parser_feed`,`cmark_parser_finish`,`cmark_node_free`,''
+* Docs

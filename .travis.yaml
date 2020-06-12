@@ -1,15 +1,9 @@
-language: perl6
+languages: minimal
 
-os:
-  - linux
-
-perl6:
-  - latest
+services:
+  - docker
 
 install:
-  - git clone https://github.com/commonmark/cmark.git
-  - (cd cmark && make INSTALL_PREFIX=$HOME/cmark_bin && make install)
-  - rakudobrew build zef
-script:
-  - LD_LIBRARY_PATH=$HOME/cmark_bin zef install .
-  - PERL6LIB=$PWD/blib/lib LD_LIBRARY_PATH=$HOME/cmark_bin/lib/ prove -e perl6 -vr t/
+  - docker pull jjmerelo/raku-test
+
+script: docker run -t  --entrypoint="/bin/sh" -v  $TRAVIS_BUILD_DIR:/test jjmerelo/raku-test -c "apk add --update --no-cache libcmark && cp /usr/lib/libcmark.so.0.29.0 /usr/lib/libcmark.so && zef install --deps-only . && zef test ."
