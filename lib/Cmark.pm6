@@ -1,4 +1,4 @@
-use Cmark::Raw;
+use Cmark::Native;
 #| Main Class
 unit class Cmark;
 

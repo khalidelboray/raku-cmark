@@ -13,7 +13,7 @@
   "test-depends": [],
   "provides": {
     "Cmark": "lib/Cmark.pm6",
-    "Cmark::Raw": "lib/Cmark/Raw.pm6"
+    "Cmark::Native": "lib/Cmark/Native.pm6"
   },
   "resources": [],
   "license": "Artistic-2.0",
